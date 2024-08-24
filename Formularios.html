@@ -15,7 +15,11 @@
       <!-- etiqueta "id" el la identificacion y asociacion del label y el imput  -->
        <!-- Etiqueta "name" es el nombre que se le da al id -->
         <!-- Etiqueta " placeholder" es una ayuda para poder ingresar infomarcion en el input -->
-    <form action="/Datos" method="get">
+    <!-- metodo "get" y metodo "post" cualquiera de los dos para crear formulario -->
+
+
+
+    <form action="/Datos" method="post">
         <label for="texto">Campo de texto</label>
         <input type="text " id="texto" name="texto" placeholder="ingresa texto">
 <br><br>
@@ -90,6 +94,26 @@
 <!-- CAMPO DE ARCHIVO -->
 <label for="archivo">campo de archivo </label>
 <input type="file" id="archivo" name="archivo" >
+<br><br>
+
+ <!-- CAMPO DE DE BOTON -->
+<!-- Etiqueta de "value" valor -->
+
+<input type="submit"  value="enviar">
+<br><br>
+
+<!-- Etiqueta "reset" es para reiniciar campos del formato-->
+
+<input type="reset"  value="Reiniciar">
+<br><br>
+
+<!-- CAMPO DE BOTON IMAGEN -->
+
+<input type="image" src="https://upload.wikimedia.org/wikipedia/en/thumb/4/47/FC_Barcelona_%28crest%29.svg/1200px-FC_Barcelona_%28crest%29.svg.png" alt="enviar" width="200" height="200" >
+<br><br>
+
+<!-- Etiqueta "button" es para un boton tambien se tiene que seleccionar el tipo "type" -->
+<button type="submit"> mi boton </button>
 
     </form>
 
