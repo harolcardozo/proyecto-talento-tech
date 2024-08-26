@@ -3,21 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content=" harolcardozo"> 
+    <meta name="description" content=" pagina web">
+    <meta name="keywords" content="progrmacion">
     <title>Blog</title>
 </head>
 <body>
     
+   <!-- etiqueta de "div" es un contenedor y se puede usar en cualquier lugar para aplicar nuevas etiquetas -->
+<!-- etiqueta "style + color" funciona para cambiar el color del formato -->
+ <!-- etiqueta " text -alaging : center" para cedntrar texto o imagen-->
+<!-- para centrar imagen se utiliza lasetiquetas "div + text -alaging :center" -->
+
+   <div>
+      <h1 style="color: brown;text-align: center;">pasatiempos</h1>
+
+   </div>
 <header>
 
-    <h1>INFORMACION PERSONAL</h1>
+   <!-- ETIQUETA "font-famyli" tipo de letra -->
+    <h1 style="color: blue; text-align: center; font-family: Arial, Helvetica, sans-serif;">INFORMACION PERSONAL</h1>
     <h2>Harold Stiven Cardozo Riaños</h2>
+    <div style="text-align: center;">
      <img width="50" height="50" src="https://i.blogs.es/c04a74/instagram/450_1000.webp" alt="stiven 57"> <h3>Stiven_57</h3>
-
+   </div>
 
 </header>
 
+<!-- etiqueta " border 3px solid" es para realzar mas rel recuadro -->
 <section>
-<fieldset>
+<fieldset id="ps" style="color: brown;border: 3px solid;;" >
 
 <!--  la etiqueta "fieldset" funciona para crear un recuadro  -->
   <!--la etiqueta "legend" funciona para darle nombre al recuadro de fieldset -->
@@ -25,8 +40,8 @@
 <legend>PASATIEMPOS</legend>
 
  <article>
-     
-<table border="1">
+     <!-- la etiqueta "eligin = center" funciona capara centrar texto o cualquiero objeto ejemplo: <table border="1" align="center"> -->
+<table border="1" align="center">
 <hr>
 <br>
 
@@ -37,10 +52,16 @@
     <th>imagen</th>
 </tr>
 
-<tr>
+
+
+  <tr>
     <td>Trotar</td>
+ 
     <td><img width="200" height="200" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8emFm7BE7FaX4-oVHP4pK-RAZatTIiVpvPA&s" alt=" Trotar"></td>
+   
 </tr>
+
+
 
 
 <tr>
@@ -59,7 +80,7 @@
 </fieldset>
 
 
-<fieldset>
+<fieldset id="comida" style="color: brown;">
 
    <legend>COMIDA FAVORITA</legend>
 <article>
@@ -98,7 +119,7 @@
       </fieldset>
 
 
-      <fieldset>
+      <fieldset id="destinos" style="color: brown;">
 
 
          <legend>DESTINOS</legend>
@@ -135,7 +156,7 @@
             </article>
          </fieldset>
 
-         <fieldset>
+         <fieldset id="pais que me gustaria conocer" style="color: brown;">
 
             <legend>PAIS QUE ME GUSTARIA CONOCER</legend>
 
@@ -174,9 +195,17 @@
 
 </section>
 
+
+<!-- estiqueta # funciona para navegar en mi misma pagina ejem:<fieldset id ="#name"> coectado con hipervinculo "a"  -->
 <footer>
-<h4>INFORMACION DE CONTACTO</h4>
-<img width="60" height="60" src="https://cdn2.downdetector.com/static/uploads/logo/FB-f-Logo__blue_512.png" alt="Harol stiven"> <h5>Harol stiven</h5>
+   <a href="#ps">pasatiempo</a>
+   <a href="#comida">comida</a>
+   <a href="#destinos">destinos</a>
+
+   <!-- Etiqueta de "background" para subrrayar -->
+   <a href="#pais que me gustaria conocer">pais que me  gustaria conocer</a>
+<p style="color: rgb(0, 47, 255); text-align: center;background-color: rgb(226, 214, 43);">INFORMACION DE CONTACTO</p>
+<img width="60" height="60" src="https://cdn2.downdetector.com/static/uploads/logo/FB-f-Logo__blue_512.png" alt="Harol stiven"> <p>Harol stiven</p>
 </footer>
 
 
@@ -186,4 +215,4 @@
 
 
 </body>
-</html>
+</html>s
